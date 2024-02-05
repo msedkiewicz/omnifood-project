@@ -168,6 +168,11 @@ body {
   color: #e67e22;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem #e67d2286;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
