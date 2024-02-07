@@ -64,9 +64,6 @@
   color: #333;
 }
 
-.icon-mobile-nav[name="menu"] {
-}
-
 .icon-mobile-nav[name="close"] {
   display: none;
 }
