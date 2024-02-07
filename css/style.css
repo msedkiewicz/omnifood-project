@@ -49,6 +49,28 @@
   background-color: #cf711f;
 }
 
+/* Mobile nav */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="menu"] {
+}
+
+.icon-mobile-nav[name="close"] {
+  display: none;
+}
+
 /* Hero section */
 
 .section-hero {
