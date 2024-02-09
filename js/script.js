@@ -50,7 +50,7 @@ const observer = new IntersectionObserver(
   (entries) => {
     const ent = entries[0];
     if (ent.isIntersecting === false) {
-      document.querySelector(".header").classList.add("sticky");
+      document.body.classList.add("sticky");
     }
   },
   {
