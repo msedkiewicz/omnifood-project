@@ -1,4 +1,6 @@
-console.log("dupa");
+const yearEl = document.querySelector(".year");
+const currentDate = new Date().getFullYear();
+yearEl.textContent = currentDate;
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
